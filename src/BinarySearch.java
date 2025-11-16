@@ -1,7 +1,6 @@
 import java.util.Arrays;  //Sort Numbers
 import java.util.Random;  // Generate random numbers
 
-
 public class BinarySearch {
 
     // Binary Search function
