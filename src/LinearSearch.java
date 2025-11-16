@@ -24,5 +24,26 @@ public class LinearSearch {
         return arr;
     }
 
-    
+    public static void main(String[] args) {
+
+        int[] sizes = {100, 500, 1000};
+
+        System.out.println("Algorithm: Linear Search");
+        System.out.println("Input Size | Time (ms)");
+        System.out.println("------------------------");
+
+        for (int size : sizes) {
+            int[] arr = generateArray(size);
+
+            int key = arr[size - 1];  // search last element 
+            long start = System.nanoTime();
+
+            linearSearch(arr, key);
+
+            long end = System.nanoTime();
+            double timeMs = (end - start) / 1_000_000.0;
+
+            System.out.println(size + "        | " + timeMs);
+        }
+    }
 }
