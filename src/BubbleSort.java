@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Member3_BubbleSort {
+public class BubbleSort {
 
     // Bubble Sort Algorithm
     public static void bubbleSort(int[] arr) {
