@@ -1,7 +1,5 @@
 import java.util.Random;
-
 public class LinearSearch {
-
     // Linear Search Algorithm
     public static int linearSearch(int[] arr, int key) {
         for (int i = 0; i < arr.length; i++) {
