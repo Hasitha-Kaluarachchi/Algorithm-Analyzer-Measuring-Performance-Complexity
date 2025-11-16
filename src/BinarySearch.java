@@ -1,8 +1,6 @@
 import java.util.Arrays;  //Sort Numbers
 import java.util.Random;  // Generate random numbers
 
-package AlgorithmAnalyzer;
-
 public class BinarySearch {
 
     // Binary Search function
