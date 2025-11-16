@@ -1,5 +1,3 @@
-package AlgorithmAnalyzer;
-
 import java.util.Random;
 
 public class LinearSearch {
